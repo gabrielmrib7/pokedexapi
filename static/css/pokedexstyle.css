@@ -1,0 +1,281 @@
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    line-height: normal;
+
+}
+
+body {
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+    .normal {
+    background-color: #A8A77A ;
+    border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .fire {
+        background-color: #ff5e00 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .water {
+        background-color: #6390F0 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .electric {
+        background-color: #e2cc00 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .grass {
+        background-color: #7AC74C;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+        
+        
+    } 
+    .ice {
+        background-color: #96D9D6 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .fighting {
+        background-color: #C22E28 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .poison {
+        background-color: #A33EA1 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .ground {
+        background-color: #E2BF65 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .flying {
+        background-color: #A98FF3 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .psychic {
+        background-color: #F95587 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .bug {
+        background-color: #A6B91A ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .rock {
+        background-color: #B6A136 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .ghost {
+        background-color: #735797 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .dragon {
+        background-color: #6F35FC ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .dark {
+        background-color: #705746 ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .steel {
+        background-color: #B7B7CE ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+    .fairy {
+        background-color: #D685AD ;
+        border-radius: 1rem 1rem 1.2rem 1.2rem;
+    } 
+
+
+.top{
+    margin: 0.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    
+            
+
+    
+}
+
+.top .name{
+    COLOR: WHITE;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.top .number{
+    color: white;
+    text-align: right;
+    font-size: 1rem;
+    }
+.top .types{
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.top .types .type{
+    color: white;
+    padding: .25rem 1.1rem;
+    font-size: .8rem;
+    border-radius: 1rem;
+    filter:brightness(1.1);
+    margin-right: 0.5rem;
+    font-weight: 300;
+
+}
+.top .foto{
+    height: 300px;
+    align-self: center;
+    position:absolute;
+    top: 135px;
+}
+
+section {
+    background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(255, 255, 255, 0.288));
+}
+
+.abilities{
+    text-transform: capitalize;
+}
+
+
+.content {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.bottom
+{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.details{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.status{
+    max-width: 450px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.details span{
+    max-width: 20rem;
+    color: #C3C5C8;
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 10px 5px;
+}
+
+.details aside {
+    color: #383a3d;
+    font-weight: 300;
+}
+
+.status span{
+    color: #C3C5C8;
+    margin: 3px;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    padding: 10px 5px;
+    align-items: center;
+
+}
+
+.status .bar{
+    width:200px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #e7e8eb;
+}
+
+.status .num{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.status aside div{
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 280px)
+    {
+    .status .bar{
+        width: 100px;
+    }
+    .top .foto{
+        height: 280px;
+    }
+
+  
+    
+}
+
+
+    @media screen and (min-width: 769px){
+
+        .content {
+            max-width: 769px;
+            height: auto;
+            margin: 1rem auto;
+            border-radius: 1.1rem;
+    
+        }
+
+        body {
+            background-image: 
+                url("https://i.pinimg.com/originals/09/a6/ae/09a6ae937a6d9ef5cd10d132b59d6f5d.png");
+            background-repeat: no-repeat, no-repeat;
+            background-position-x: right;
+            background-position-y: 400px;
+            background-size: 50%;
+            background-blend-mode:color-dodge;
+            background-color: #f6f8fc;
+            overflow-x: hidden;
+        }
+
+        
+        
+    }
+
+    @media screen and (max-width: 690px)
+    {
+        .bottom {
+            flex-direction: column;
+            align-items: center;
+        }
+        .details{
+            padding: 3rem 1rem 1rem 1rem;
+        }
+        .status{
+            padding: 1rem;
+        }
+    }
